@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-08T15:35:29 PKT" name="Default suite" finished-at="2023-07-08T15:36:49 PKT" duration-ms="80298">
+    <groups>
+    </groups>
+    <test started-at="2023-07-08T15:35:29 PKT" name="Default test" finished-at="2023-07-08T15:36:49 PKT" duration-ms="80298">
+      <class name="Vehicle.Automation.HomePageTests">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:Vehicle.Automation.HomePageTests@f5ac9e4]" started-at="2023-07-08T15:35:29 PKT" name="initialization" finished-at="2023-07-08T15:36:03 PKT" duration-ms="34061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:Vehicle.Automation.HomePageTests@f5ac9e4]" started-at="2023-07-08T15:36:03 PKT" name="waitMethod" finished-at="2023-07-08T15:36:03 PKT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="SubscribeNewsLetterCancel()[pri:1, instance:Vehicle.Automation.HomePageTests@f5ac9e4]" started-at="2023-07-08T15:36:03 PKT" name="SubscribeNewsLetterCancel" finished-at="2023-07-08T15:36:03 PKT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubscribeNewsLetterCancel -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:Vehicle.Automation.HomePageTests@f5ac9e4]" started-at="2023-07-08T15:36:03 PKT" name="waitMethod" finished-at="2023-07-08T15:36:03 PKT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="mainLogoVisibility()[pri:2, instance:Vehicle.Automation.HomePageTests@f5ac9e4]" started-at="2023-07-08T15:36:03 PKT" name="mainLogoVisibility" finished-at="2023-07-08T15:36:06 PKT" duration-ms="3142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainLogoVisibility -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:Vehicle.Automation.HomePageTests@f5ac9e4]" started-at="2023-07-08T15:36:06 PKT" name="waitMethod" finished-at="2023-07-08T15:36:06 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="DownloadAppBtn()[pri:3, instance:Vehicle.Automation.HomePageTests@f5ac9e4]" started-at="2023-07-08T15:36:06 PKT" name="DownloadAppBtn" finished-at="2023-07-08T15:36:07 PKT" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadAppBtn -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:Vehicle.Automation.HomePageTests@f5ac9e4]" started-at="2023-07-08T15:36:07 PKT" name="waitMethod" finished-at="2023-07-08T15:36:07 PKT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="urduLanguageBtn()[pri:4, instance:Vehicle.Automation.HomePageTests@f5ac9e4]" started-at="2023-07-08T15:36:07 PKT" name="urduLanguageBtn" finished-at="2023-07-08T15:36:33 PKT" duration-ms="26458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urduLanguageBtn -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:Vehicle.Automation.HomePageTests@f5ac9e4]" started-at="2023-07-08T15:36:33 PKT" name="waitMethod" finished-at="2023-07-08T15:36:33 PKT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="main_banner_text_verification()[pri:5, instance:Vehicle.Automation.HomePageTests@f5ac9e4]" started-at="2023-07-08T15:36:33 PKT" name="main_banner_text_verification" finished-at="2023-07-08T15:36:34 PKT" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_banner_text_verification -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:Vehicle.Automation.HomePageTests@f5ac9e4]" started-at="2023-07-08T15:36:34 PKT" name="waitMethod" finished-at="2023-07-08T15:36:34 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="search_query_test()[pri:6, instance:Vehicle.Automation.HomePageTests@f5ac9e4]" started-at="2023-07-08T15:36:34 PKT" name="search_query_test" finished-at="2023-07-08T15:36:49 PKT" duration-ms="15458" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [91222ed0a73fcef25fe4e0ff9ab0e3e0, sendKeysToElement {id=38E9D4C3B14DA52D3DAE13134B6049E4_element_93, value=[Ljava.lang.CharSequence;@d1a10ac}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\MUHAMM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50285/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (91222ed0a73fcef25fe4e0ff9ab0e3e0)] -> id: home-query]
+Session ID: 91222ed0a73fcef25fe4e0ff9ab0e3e0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [91222ed0a73fcef25fe4e0ff9ab0e3e0, sendKeysToElement {id=38E9D4C3B14DA52D3DAE13134B6049E4_element_93, value=[Ljava.lang.CharSequence;@d1a10ac}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\MUHAMM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50285/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (91222ed0a73fcef25fe4e0ff9ab0e3e0)] -> id: home-query]
+Session ID: 91222ed0a73fcef25fe4e0ff9ab0e3e0
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+at Vehicle.Automation.HomePageTests.search_query_test(HomePageTests.java:91)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_query_test -->
+      </class> <!-- Vehicle.Automation.HomePageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
