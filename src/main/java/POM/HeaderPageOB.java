@@ -15,6 +15,7 @@ private By mainLogo=By.xpath("//div[@class='navbar-header']/a[1]/img");
 private By downloadAppPopup=By.xpath("//div[@class='mt20']");
 private By downloadAppBtn=By.xpath("//a[@class='pull-left btn-mini-app']");
 private By urduBtn=By.className("urdu-img");
+private By newsLetter_cancelBTN=By.xpath("//button[@id='onesignal-slidedown-cancel-button']");
 	public HeaderPageOB(WebDriver driver) throws IOException
 	{
 		
@@ -37,6 +38,10 @@ public WebElement downlaodAppPopup() {
 
 public WebElement urduBtn() {
 	return driver.findElement(urduBtn);
+}
+
+public WebElement newsLetter_cancelBTN() {
+	return driver.findElement(newsLetter_cancelBTN);
 }
 
 

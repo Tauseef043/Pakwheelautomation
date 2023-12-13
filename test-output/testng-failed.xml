@@ -5,8 +5,12 @@
     <classes>
       <class name="Vehicle.Automation.HomePageTests">
         <methods>
+          <include name="mainLogoVisibility"/>
           <include name="waitMethod"/>
+          <include name="pakWheelsProduct_Button_Verifications"/>
           <include name="search_query_test"/>
+          <include name="pakWheelsProduct_ButtonTXT_Verifications"/>
+          <include name="main_banner_text_verification"/>
           <include name="initialization"/>
         </methods>
       </class> <!-- Vehicle.Automation.HomePageTests -->

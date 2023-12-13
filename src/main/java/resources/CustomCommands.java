@@ -5,8 +5,14 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class CustomCommands extends base {
@@ -48,5 +54,20 @@ public class CustomCommands extends base {
 	
 			 
 	}
+	public void ContainsTextAssertion(String currentText,String validText) {
+		
+		
+		Assert.assertTrue(validText.toLowerCase().contains(validText.toLowerCase()));
+	}
+
+	public void explicitWaitFOrELement(int seconds, WebElement element)
+	{
+
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
+		  wait.until(ExpectedConditions.visibilityOfElementLocated((By) element));
+		 
+	}
+	
+	
 
 }
